@@ -1,0 +1,7 @@
+- name: Configure user and system services
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for background services
+      ansible.builtin.debug:
+        msg: Add ssh, syncthing, docker, cron, and systemd unit tasks here.

@@ -1,0 +1,7 @@
+- import_playbook: playbooks/bootstrap.yml
+- import_playbook: playbooks/base.yml
+- import_playbook: playbooks/shell.yml
+- import_playbook: playbooks/dev.yml
+- import_playbook: playbooks/desktop.yml
+- import_playbook: playbooks/services.yml
+- import_playbook: playbooks/post_setup.yml

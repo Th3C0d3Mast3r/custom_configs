@@ -1,0 +1,7 @@
+- name: Install development tooling
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for language runtimes and developer apps
+      ansible.builtin.debug:
+        msg: Add Git, Docker, language runtimes, editors, and SDK setup here.

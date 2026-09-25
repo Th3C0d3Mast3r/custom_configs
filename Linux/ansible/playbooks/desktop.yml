@@ -1,0 +1,7 @@
+- name: Configure desktop applications and UI
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for desktop apps and theming
+      ansible.builtin.debug:
+        msg: Add browser, media, launcher, wallpaper, theme, and ricing tasks here.

@@ -1,0 +1,7 @@
+- name: Install baseline system packages
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for core utilities
+      ansible.builtin.debug:
+        msg: Add common CLI tools, editors, fonts, and system defaults here.

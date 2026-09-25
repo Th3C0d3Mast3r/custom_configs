@@ -1,0 +1,13 @@
+- name: Bootstrap machine for local Ansible runs
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Confirm supported operating system
+      ansible.builtin.assert:
+        that:
+          - ansible_distribution == 'Ubuntu'
+        fail_msg: This automation currently targets Ubuntu only.
+
+    - name: Placeholder for apt sources and prerequisite setup
+      ansible.builtin.debug:
+        msg: Add repository setup, keys, and prerequisite packages here.

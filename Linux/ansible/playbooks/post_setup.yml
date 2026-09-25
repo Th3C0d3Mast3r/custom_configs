@@ -1,0 +1,7 @@
+- name: Run post-setup verification and manual reminders
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for final checks
+      ansible.builtin.debug:
+        msg: Add verification steps, manual prompts, and cleanup tasks here.

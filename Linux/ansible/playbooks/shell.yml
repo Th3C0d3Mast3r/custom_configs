@@ -1,0 +1,7 @@
+- name: Configure shell and terminal environment
+  hosts: local
+  gather_facts: true
+  tasks:
+    - name: Placeholder for shell dotfiles and prompt setup
+      ansible.builtin.debug:
+        msg: Add zsh, tmux, terminal, aliases, and shell config tasks here.
