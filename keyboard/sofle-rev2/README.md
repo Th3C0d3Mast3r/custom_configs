@@ -9,7 +9,7 @@ This is the repo that stores the keymaps for my split `sofle/rev1` that I made, 
 
 ## HOW TO FLASH NEW KEYMAPS
 This is very essential- how to load the new keymaps to the sofle.
-> [IMPORTANT]
+> [!IMPORTANT]
 > Gemini or GPT how to **compile** the `.json` file that you made on **QMK Configurator** online web-app
 
 1. Ensure, both the keyboards are **NOT CONNECTED** to each other; and even, none of them is **CONNECTED TO LAPTOP**.
